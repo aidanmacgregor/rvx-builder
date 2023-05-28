@@ -74,3 +74,16 @@ docker rmi <name_of_the_image> -f
 To update to a newer version of Builder, stop the existing container if it is running, build the container start it again.
 
 In both the builds, a persistent storage is kept. All the builds are stored in `<path/to>/revanced-builder/revanced/`.
+
+
+## MicroG
+<div align="center">
+
+[![Release](https://img.shields.io/github/v/release/inotia00/mMicroG?label=mMicroG)](https://github.com/luxysiv/revanced-nonroot/releases/latest/download/mMicroG.apk)
+
+👆 to download mMicroG
+
+Necessary for non-root users. Install first
+  
+</div>
+
