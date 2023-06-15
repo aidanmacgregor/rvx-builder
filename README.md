@@ -1,3 +1,4 @@
+
 # ReVanced Builder
 
 This project will allow you to download the APK of any of the [officially supported](https://github.com/revanced/revanced-patches#-patches) apps and build ReVanced easily!
@@ -7,6 +8,12 @@ This project will allow you to download the APK of any of the [officially suppor
 You'll need at least [Zulu JDK 17](https://www.azul.com/downloads/?version=java-17-lts&package=jdk) and [ADB](https://developer.android.com/studio/command-line/adb) (optional, required only for rooted phones).
 
 If you plan to use it from source, you'll also require [Node.js >= 16](https://nodejs.org/).
+
+## MicroG
+
+[![Release](https://img.shields.io/github/v/release/inotia00/mMicroG?label=mMicroG)](https://github.com/luxysiv/revanced-nonroot/releases/latest/download/mMicroG.apk)
+
+👆 to download MicroG (Required for non-root users. Install first)
 
 ## How to use
 
@@ -74,16 +81,3 @@ docker rmi <name_of_the_image> -f
 To update to a newer version of Builder, stop the existing container if it is running, build the container start it again.
 
 In both the builds, a persistent storage is kept. All the builds are stored in `<path/to>/revanced-builder/revanced/`.
-
-
-## MicroG
-<div align="center">
-
-[![Release](https://img.shields.io/github/v/release/inotia00/mMicroG?label=mMicroG)](https://github.com/luxysiv/revanced-nonroot/releases/latest/download/mMicroG.apk)
-
-👆 to download mMicroG
-
-Necessary for non-root users. Install first
-  
-</div>
-
